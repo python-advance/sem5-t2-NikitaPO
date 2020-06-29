@@ -1,4 +1,6 @@
-def isr (n):
+import itertools
+
+def fib (n):
     def fib_isr():
         a, b = 1, 1
         while True:
